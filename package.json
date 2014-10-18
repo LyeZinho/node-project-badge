@@ -1,0 +1,19 @@
+{
+  "name": "node-project-badge",
+  "version": "0.0.0",
+  "description": "Create project badges from the CLI with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "project-badge": "bin/cli.js"
+  },
+  "author": "Hadrien Milano <hadrien.milano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.1.6",
+    "minimist": "^1.1.0",
+    "project-badge": "~0.0.0"
+  }
+}

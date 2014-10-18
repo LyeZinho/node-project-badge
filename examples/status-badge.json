@@ -1,0 +1,7 @@
+{
+  "type": "boolean",
+  "text": "build",
+  "inverse": "true",
+  "successText": "passing",
+  "failureText": "failure"
+}

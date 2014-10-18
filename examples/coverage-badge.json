@@ -1,0 +1,6 @@
+{
+  "type": "progress",
+  "bounds": [40, 80],
+  "text": "coverage",
+  "unit": "%"
+}

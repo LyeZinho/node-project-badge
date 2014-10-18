@@ -1,0 +1,6 @@
+Code coverage report for job #123 on Sat 18/10/2014 at 13:37
+
+Methods: 87%
+Classes: 60%
+Lines: 82%
+
