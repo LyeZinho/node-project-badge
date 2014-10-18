@@ -11,10 +11,10 @@ if (argv._.length === 0) {
   process.exit(1);
 }
 
-var outstream = fs.createWriteStream(path.join(process.cwd(), argv._[0]));
+var outstream = fs.createWriteStream(path.resolve(process.cwd(), argv._[0]));
 
 if (argv.b) {
-  var configData = fs.readFileSync(path.join(process.cwd(), argv.b));
+  var configData = fs.readFileSync(path.resolve(process.cwd(), argv.b));
   config = JSON.parse(configData.toString());
 }
 
