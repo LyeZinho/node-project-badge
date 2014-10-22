@@ -4,7 +4,7 @@
   "description": "Create project badges from the CLI with node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tests/run-all.sh"
   },
   "bin": {
     "project-badge": "./bin/cli.js"

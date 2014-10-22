@@ -1,0 +1,7 @@
+{
+  "type": "boolean",
+  "text": "Am I awake ?",
+  "inverse": false,
+  "successText": "yes",
+  "failureText": "no"
+}
