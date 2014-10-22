@@ -24,7 +24,8 @@ Create a build status badge:
  `-b config` : built-in configuration  
  `-c file` : custom configuration file  
 All other options are directly passed as badge parameters to [project-badge](https://github.com/hmil/project-badge).  
-`--type` or `config.type` specifies the base *project-badge* type (boolean, progress, info).
+
+Badge parameters can either be specified as command line arguments or in a json config file. Additionnaly, the `type` config specifies the base *project-badge* type (boolean, progress, info).
 
 ### Config file
 A config file is a valid json file which contains project-badge badge parameters. See the [API Reference](https://github.com/hmil/project-badge#api-reference) for the full list of badge parameters.
