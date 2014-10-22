@@ -10,5 +10,5 @@ sh -c "exit 0"
 ####
 
 # And now we can generate a build status badge with just one line of code
-../bin/cli.js -b status-badge.json --status $? "ci-build.png"
+project-badge -b build-status --status $? "ci-build.png"
 
