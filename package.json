@@ -1,6 +1,6 @@
 {
   "name": "node-project-badge",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Create project badges from the CLI with node",
   "main": "index.js",
   "scripts": {
