@@ -2,6 +2,14 @@
   "name": "node-project-badge",
   "version": "0.1.0",
   "description": "Create project badges from the CLI with node",
+  "homepage": "https://github.com/hmil/node-project-badge",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hmil/node-project-badge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hmil/node-project-badge/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "tests/run-all.sh"
@@ -15,5 +23,11 @@
     "canvas": "^1.1.6",
     "minimist": "^1.1.0",
     "project-badge": "~0.1.0"
-  }
+  },
+  "keywords": [
+    "badge",
+    "ci",
+    "cli",
+    "continuous integration"
+  ]
 }
