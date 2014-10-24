@@ -1,6 +1,6 @@
 {
   "name": "node-project-badge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create project badges from the CLI with node",
   "homepage": "https://github.com/hmil/node-project-badge",
   "repository": {
