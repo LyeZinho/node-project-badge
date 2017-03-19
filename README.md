@@ -35,7 +35,9 @@ The most common configurations are stored in built-in configs accessible *via* t
  - `build-status`: Travis-style build status. Shows a successful build when `--status` is 0
  - `coverage`: Code coverage. `--progress` gives the amount of coverage in %.
  - `last-build`: Date of last build.  Example: write a badge with the current date  
-   ```project-badge -b last-build --info "`date '+%d/%m/%y %k:%M'`" badge.png```  
+   ```
+   project-badge -b last-build --info "`date '+%d/%m/%y %k:%M'`" badge.png
+   ```  
    ![last-build](https://raw.githubusercontent.com/hmil/node-project-badge/master/images/last-build.png)
  - `version`: creates a version badge (specify version with `--info`)
  - `npm-version`: like version but for npm packages

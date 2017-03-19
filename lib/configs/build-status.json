@@ -3,5 +3,6 @@
   "text": "build",
   "inverse": true,
   "successText": "passing",
-  "failureText": "failure"
+  "failureText": "failure",
+  "unknownText": "unknown"
 }
